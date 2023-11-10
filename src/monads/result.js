@@ -1,4 +1,4 @@
-import { Option } from "./option.mjs";
+import { Option } from "./option";
 export class Result {
   #value;
   #isSuccess;

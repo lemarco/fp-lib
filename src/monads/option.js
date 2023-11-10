@@ -1,4 +1,4 @@
-import { Result } from "./result.mjs";
+import { Result } from "./result";
 export class Option {
   #value;
   #hasValue;
