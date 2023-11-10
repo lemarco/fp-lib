@@ -1,6 +1,4 @@
-import { pipe } from "../";
-const testEmailString = (s) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(s);
-export const isEmail = (s) => pipe(isString, testEmailString);
+export const isEmail = (s) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(s);
 
 export const isString = (s) => typeof s === "string";
 export const isNumber = (n) => typeof n === "number";
